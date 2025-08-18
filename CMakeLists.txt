@@ -55,7 +55,7 @@ endif()
 
 #---- Find other packages ----
 find_package(Threads)
-find_package(ZMQ)
+find_package(ZeroMQ)
 
 if( ZMQ_FOUND )
     message(STATUS "ZeroMQ: found.")
