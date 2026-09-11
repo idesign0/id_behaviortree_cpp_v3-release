@@ -55,7 +55,7 @@ endif()
 
 #---- Find other packages ----
 find_package(Threads)
-find_package(ZeroMQ)
+find_package(ZMQ)  # the bundled module is cmake/FindZMQ.cmake (sets ZMQ_FOUND), not FindZeroMQ
 
 if( ZMQ_FOUND )
     message(STATUS "ZeroMQ: found.")
